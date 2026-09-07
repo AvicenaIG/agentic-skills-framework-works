@@ -1,0 +1,29 @@
+{
+  "name": "agentic-skills-framework-works",
+  "version": "0.1.0",
+  "description": "Superpowers skills and runtime bootstrap for coding agents",
+  "type": "module",
+  "main": ".opencode/plugins/superpowers.js",
+  "keywords": [
+    "pi-package",
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "workflow"
+  ],
+  "pi": {
+    "extensions": [
+      "./.pi/extensions/superpowers.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "author": "AvicenaIG <avi.cena.ghifarie@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AvicenaIG/agentic-skills-framework-works.git"
+  },
+  "homepage": "https://github.com/AvicenaIG/agentic-skills-framework-works"
+}
